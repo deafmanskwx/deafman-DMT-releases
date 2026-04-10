@@ -10,14 +10,14 @@
         <h2>DMT v1.5.0</h2>
         <p>Latest release</p>
       ]]></description>
-      <pubDate>Fri, 10 Apr 2026 14:50:47 +0100</pubDate>
+      <pubDate>Fri, 10 Apr 2026 15:24:19 +0100</pubDate>
       <sparkle:version>1.5.0</sparkle:version>
       <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <enclosure
         url="https://github.com/deafmanskwx/deafman-DMT-releases/releases/download/v1.5.0/DMT_v1.5.0.dmg"
-        sparkle:edSignature="4MHzXNWMlRxD4AAGW+Wjdq9jHtAmYnh757hW9CTa0lOfhEX8X0VneF14pry5Ad92zQajsl488iMYssraulfgDA=="
-        length="25133330"
+        sparkle:edSignature="AEi7Ys43U5oCgkY4FD/DslPn7x/PUDlME4NAsiguOO5n3sF83qxDL12DP0D+MsObvPwAC+OHmuygG8zCyJI4DQ=="
+        length="26067478"
         type="application/octet-stream" />
     </item>
   </channel>
