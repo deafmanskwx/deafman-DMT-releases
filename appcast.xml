@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <channel>
-        <title>DeafManTools (DMT) Updates</title>
-        <link>https://deafmanskwx.github.io/deafman-DMT-releases/appcast.xml</link>
-        <description>DeafManTools release feed. Powered by Sparkle.</description>
-        <language>en</language>
-        <!-- Items are added here automatically by generate_appcast when you ship a new release -->
-    </channel>
+  <channel>
+    <title>DMT Updates</title>
+    <description>DeafManTools automatic update feed</description>
+    <language>en</language>
+    <item>
+      <title>Version 1.5.0</title>
+      <description><![CDATA[
+        <h2>DMT v1.5.0</h2>
+        <p>Latest release</p>
+      ]]></description>
+      <pubDate>Fri, 10 Apr 2026 14:50:47 +0100</pubDate>
+      <sparkle:version>1.5.0</sparkle:version>
+      <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/deafmanskwx/deafman-DMT-releases/releases/download/v1.5.0/DMT_v1.5.0.dmg"
+        sparkle:edSignature="4MHzXNWMlRxD4AAGW+Wjdq9jHtAmYnh757hW9CTa0lOfhEX8X0VneF14pry5Ad92zQajsl488iMYssraulfgDA=="
+        length="25133330"
+        type="application/octet-stream" />
+    </item>
+  </channel>
 </rss>
