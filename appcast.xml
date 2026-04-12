@@ -7,17 +7,33 @@
     <item>
       <title>Version 1.5.0</title>
       <description><![CDATA[
-        <h2>DMT v1.5.0</h2>
-        <p>Latest release</p>
+<h2>Tracks Subsystem</h2>
+<p>A new configuration layer for dynamically coloring and managing targeted Ableton Live tracks.</p>
+<ul>
+  <li>Support for recursive color distribution across complex nested group topologies.</li>
+  <li>Configurable manual and automatic refresh modes to prioritize performance during rapid theme switching.</li>
+  <li>Unified configuration interfaces for consistent parameter mapping.</li>
+</ul>
+
+<h2>Engine Performance</h2>
+<ul>
+  <li>Optimized the core execution loop to improve UI rendering consistency and reduce latency.</li>
+  <li>Restructured factory content initialization routines to reduce application startup time.</li>
+</ul>
+
+<h2>Automated Updates</h2>
+<ul>
+  <li>Integrated a native background update pipeline for automated, transparent delivery of subsequent application releases.</li>
+</ul>
       ]]></description>
-      <pubDate>Fri, 10 Apr 2026 15:50:57 +0100</pubDate>
+      <pubDate>Sun, 12 Apr 2026 16:43:51 +0100</pubDate>
       <sparkle:version>1.5.0</sparkle:version>
       <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <enclosure
         url="https://github.com/deafmanskwx/deafman-DMT-releases/releases/download/v1.5.0/DMT_v1.5.0.dmg"
-        sparkle:edSignature="2KZfj9qe8WMzCV7nRb2rBgrqXt882YheVQeRXFjofwrJzFZSj+WwilvGuBa22OXnfKL1U2biQrV9nStx+I78Cw=="
-        length="26074740"
+        sparkle:edSignature="vgdcBptsPn2HSZaNnGLtJiyzLu90ZiaPyh2AOZQ4nsS0Ops1QVpR00QcRhgbZ6iizLiFtLJFrQFuafXJFmBVDg=="
+        length="26386746"
         type="application/octet-stream" />
     </item>
   </channel>
