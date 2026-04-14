@@ -5,7 +5,7 @@
     <description>DeafManTools automatic update feed</description>
     <language>en</language>
     <item>
-      <title>Version 1.5.0</title>
+      <title>Version 1.5.1</title>
       <description><![CDATA[
 <h2>Tracks Subsystem</h2>
 <p>A new configuration layer for dynamically coloring and managing targeted Ableton Live tracks.</p>
@@ -26,14 +26,14 @@
   <li>Integrated a native background update pipeline for automated, transparent delivery of subsequent application releases.</li>
 </ul>
       ]]></description>
-      <pubDate>Tue, 14 Apr 2026 10:39:55 +0100</pubDate>
+      <pubDate>Tue, 14 Apr 2026 10:41:47 +0100</pubDate>
       <sparkle:version>1</sparkle:version>
-      <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
+      <sparkle:shortVersionString>1.5.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/deafmanskwx/deafman-DMT-releases/releases/download/v1.5.0/DMT_v1.5.0.dmg"
-        sparkle:edSignature="vsO0kFNR4nHJ1Qf+NsKwltAEUx2PHzIH9sc3ClIwdIScWXaEU9q6MaY/XxuYi6OIeFAYhcY4qozSbtXwLG7XCg=="
-        length="26391937"
+        url="https://github.com/deafmanskwx/deafman-DMT-releases/releases/download/v1.5.1/DMT_v1.5.1.dmg"
+        sparkle:edSignature="TbLrWqPjJjSTpn9/bHu+L8FIo8cKbPqFQRfhhXeZp+ynGxChAsJVR9TODNr0MDzDaEF/TPOb5oXkR/qM2wf3DQ=="
+        length="26658913"
         type="application/octet-stream" />
     </item>
   </channel>
