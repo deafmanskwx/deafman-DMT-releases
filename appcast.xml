@@ -26,14 +26,14 @@
   <li>Integrated a native background update pipeline for automated, transparent delivery of subsequent application releases.</li>
 </ul>
       ]]></description>
-      <pubDate>Sun, 12 Apr 2026 16:43:51 +0100</pubDate>
-      <sparkle:version>1.5.0</sparkle:version>
+      <pubDate>Tue, 14 Apr 2026 10:39:55 +0100</pubDate>
+      <sparkle:version>1</sparkle:version>
       <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <enclosure
         url="https://github.com/deafmanskwx/deafman-DMT-releases/releases/download/v1.5.0/DMT_v1.5.0.dmg"
-        sparkle:edSignature="vgdcBptsPn2HSZaNnGLtJiyzLu90ZiaPyh2AOZQ4nsS0Ops1QVpR00QcRhgbZ6iizLiFtLJFrQFuafXJFmBVDg=="
-        length="26386746"
+        sparkle:edSignature="vsO0kFNR4nHJ1Qf+NsKwltAEUx2PHzIH9sc3ClIwdIScWXaEU9q6MaY/XxuYi6OIeFAYhcY4qozSbtXwLG7XCg=="
+        length="26391937"
         type="application/octet-stream" />
     </item>
   </channel>
