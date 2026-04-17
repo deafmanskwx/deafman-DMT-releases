@@ -5,35 +5,45 @@
     <description>DeafManTools automatic update feed</description>
     <language>en</language>
     <item>
-      <title>Version 1.5.1</title>
+      <title>Version 1.5.2</title>
       <description><![CDATA[
+<h2>Lock Group Presets</h2>
+<p>Save, recall, and delete named sets of locked groups directly from the sort header.</p>
+<ul>
+  <li>Left-click the lock icon to filter the group list to show only locked groups.</li>
+  <li>Right-click the lock icon to save the current lock selection as a named preset, or recall a saved preset.</li>
+  <li>Presets persist across sessions and can be managed from the context menu.</li>
+</ul>
+
+<h2>Factory Theme Integrity</h2>
+<ul>
+  <li>Factory theme files are now fully protected from save-back corruption — selecting a factory theme no longer overwrites other factory themes.</li>
+  <li>Fixed cross-contamination where applying a Default theme could propagate its state into unrelated factory themes via the edit history.</li>
+  <li>Classic factory themes (Ableton-prefixed) are now correctly routed to the factory group during backup and restore.</li>
+</ul>
+
+<h2>Navigation and Search</h2>
+<ul>
+  <li>Full up/down arrow-key navigation across groups and parameters in the parameter list.</li>
+  <li>Shift-click to extend parameter selection ranges.</li>
+  <li>Fixed the Cmd-F color reverse-search Enter confirmation flow.</li>
+</ul>
+
 <h2>Tracks Subsystem</h2>
-<p>A new configuration layer for dynamically coloring and managing targeted Ableton Live tracks.</p>
 <ul>
+  <li>Isolate USER overrides with hue filter right-click subtract for targeted recoloring.</li>
+  <li>Show USER painted swatches with a color-reveal inset border for clear visual distinction.</li>
   <li>Support for recursive color distribution across complex nested group topologies.</li>
-  <li>Configurable manual and automatic refresh modes to prioritize performance during rapid theme switching.</li>
-  <li>Unified configuration interfaces for consistent parameter mapping.</li>
-</ul>
-
-<h2>Engine Performance</h2>
-<ul>
-  <li>Optimized the core execution loop to improve UI rendering consistency and reduce latency.</li>
-  <li>Restructured factory content initialization routines to reduce application startup time.</li>
-</ul>
-
-<h2>Automated Updates</h2>
-<ul>
-  <li>Integrated a native background update pipeline for automated, transparent delivery of subsequent application releases.</li>
 </ul>
       ]]></description>
-      <pubDate>Tue, 14 Apr 2026 10:41:47 +0100</pubDate>
+      <pubDate>Fri, 17 Apr 2026 17:15:24 +0100</pubDate>
       <sparkle:version>1</sparkle:version>
-      <sparkle:shortVersionString>1.5.1</sparkle:shortVersionString>
+      <sparkle:shortVersionString>1.5.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/deafmanskwx/deafman-DMT-releases/releases/download/v1.5.1/DMT_v1.5.1.dmg"
-        sparkle:edSignature="TbLrWqPjJjSTpn9/bHu+L8FIo8cKbPqFQRfhhXeZp+ynGxChAsJVR9TODNr0MDzDaEF/TPOb5oXkR/qM2wf3DQ=="
-        length="26658913"
+        url="https://github.com/deafmanskwx/deafman-DMT-releases/releases/download/v1.5.2/DMT_v1.5.2.dmg"
+        sparkle:edSignature="craY1XIS/XSPl8cw5AulhMP0kzDXlMLzR7k+c38M+B6rb3G7qyqYce70NHv8avrwfGxmWN6Ov8C56P43baprCg=="
+        length="26935405"
         type="application/octet-stream" />
     </item>
   </channel>
