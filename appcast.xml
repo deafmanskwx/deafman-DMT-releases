@@ -36,14 +36,14 @@
   <li>Support for recursive color distribution across complex nested group topologies.</li>
 </ul>
       ]]></description>
-      <pubDate>Fri, 17 Apr 2026 17:15:24 +0100</pubDate>
-      <sparkle:version>1</sparkle:version>
+      <pubDate>Fri, 17 Apr 2026 17:48:40 +0100</pubDate>
+      <sparkle:version>2</sparkle:version>
       <sparkle:shortVersionString>1.5.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <enclosure
         url="https://github.com/deafmanskwx/deafman-DMT-releases/releases/download/v1.5.2/DMT_v1.5.2.dmg"
-        sparkle:edSignature="craY1XIS/XSPl8cw5AulhMP0kzDXlMLzR7k+c38M+B6rb3G7qyqYce70NHv8avrwfGxmWN6Ov8C56P43baprCg=="
-        length="26935405"
+        sparkle:edSignature="uXTEXoWn4XrHV+WdSppT+Hl/zbd0Ci9EFSGCuB3KNIbyn9FhPDsq0zkHXK9lI2GdLvBsxOpTVQpWcUK7Ak07BQ=="
+        length="26935438"
         type="application/octet-stream" />
     </item>
   </channel>
