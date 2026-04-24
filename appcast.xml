@@ -5,45 +5,48 @@
     <description>DeafManTools automatic update feed</description>
     <language>en</language>
     <item>
-      <title>Version 1.5.2</title>
+      <title>Version 1.6.0</title>
       <description><![CDATA[
-<h2>Lock Group Presets</h2>
-<p>Save, recall, and delete named sets of locked groups directly from the sort header.</p>
+<h2>Macros</h2>
+<p>Attach a single slider to multiple colour operators across multiple groups. Each route has independent input/output ranges, inversion, and a non-linear expression curve (10 types). Save named memory slots and recall any state instantly.</p>
 <ul>
-  <li>Left-click the lock icon to filter the group list to show only locked groups.</li>
-  <li>Right-click the lock icon to save the current lock selection as a named preset, or recall a saved preset.</li>
-  <li>Presets persist across sessions and can be managed from the context menu.</li>
+  <li>Map any operator — including all Grade parameters — to a macro via right-click in the editor.</li>
+  <li>Expression curves: Linear, Exponential, Logarithmic, Sigmoid, Gaussian Bell, Stepped, Threshold, Ease In, Ease Out, Ease In/Out.</li>
+  <li>Up to 5 memory slots per macro (7 for the Master Grade macro in Lock Slots mode).</li>
+  <li>Slot rows are clickable for instant recall. Grade Memory binding supported.</li>
+  <li>Omni mode: routes all operators on the current group regardless of assignment.</li>
+  <li>Solo: pin one macro per step, mute all others.</li>
+  <li>ARM NEUTRAL: slider is gated until it crosses the stored neutral position.</li>
+  <li>Per-theme persistence in Application Support; decoupled from theme saves.</li>
 </ul>
 
-<h2>Factory Theme Integrity</h2>
+<h2>AutoSetup</h2>
+<p>Guided overlay that walks you through theme groups one at a time, cycling group presets and firing macro snapshots without using the editor directly.</p>
 <ul>
-  <li>Factory theme files are now fully protected from save-back corruption — selecting a factory theme no longer overwrites other factory themes.</li>
-  <li>Fixed cross-contamination where applying a Default theme could propagate its state into unrelated factory themes via the edit history.</li>
-  <li>Classic factory themes (Ableton-prefixed) are now correctly routed to the factory group during backup and restore.</li>
+  <li>Three traversal modes: Simple (top-level groups), Detailed (all depths), Z-Depth (experimental depth grouping).</li>
+  <li>Editor scrolls to, selects, and auto-expands the current group; non-active leaf groups collapse.</li>
+  <li>Assign mode: bind groups to macro steps directly from the AutoSetup navigator.</li>
+  <li>Slots view shows named memory slots for the current step; tap to recall.</li>
+  <li>Return arrow navigates back after a Lock Slot jump.</li>
+  <li>All header and icon colors driven by XML theme keys.</li>
 </ul>
 
-<h2>Navigation and Search</h2>
+<h2>Other Changes</h2>
 <ul>
-  <li>Full up/down arrow-key navigation across groups and parameters in the parameter list.</li>
-  <li>Shift-click to extend parameter selection ranges.</li>
-  <li>Fixed the Cmd-F color reverse-search Enter confirmation flow.</li>
-</ul>
-
-<h2>Tracks Subsystem</h2>
-<ul>
-  <li>Isolate USER overrides with hue filter right-click subtract for targeted recoloring.</li>
-  <li>Show USER painted swatches with a color-reveal inset border for clear visual distinction.</li>
-  <li>Support for recursive color distribution across complex nested group topologies.</li>
+  <li>CFG overlay: unified header button color keys, corrected radio dot/label coloring, CYCLES sort mode layout fix.</li>
+  <li>Grade EDIT button active state now reads correctly from XML (gold border, warm light icon).</li>
+  <li>Orphaned macro routes (from deleted groups/operators) are cleaned up automatically.</li>
+  <li>New XML keys: <code>MacroSlotListAccentText</code>, <code>AutoSetupHeaderAction*</code>, <code>MacroASHeaderButton*</code>, <code>CfgHeaderButton*</code>.</li>
 </ul>
       ]]></description>
-      <pubDate>Sat, 18 Apr 2026 02:32:10 +0100</pubDate>
-      <sparkle:version>3</sparkle:version>
-      <sparkle:shortVersionString>1.5.2</sparkle:shortVersionString>
+      <pubDate>Fri, 24 Apr 2026 20:23:14 +0100</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>1.6.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/deafmanskwx/deafman-DMT-releases/releases/download/v1.5.2/DMT_v1.5.2.dmg"
-        sparkle:edSignature="sKMOJkbyTpIva1kbfBwYWDggUnKqEcRWJ6uYe+IXtKi2sTfnQQg5EZIT90xdfyQNdvsphoNt9jEGI6BNKucFDA=="
-        length="26936547"
+        url="https://github.com/deafmanskwx/deafman-DMT-releases/releases/download/v1.6.0/DMT_v1.6.0.dmg"
+        sparkle:edSignature="sRX+vD6Xjy//xlgLq4HOaAyEccIDysz2Vcm3vMBoeutwR3U/OQZR9RU/H3TSYzMQUWUxMYYQBKQTLFnbpbUVCg=="
+        length="28593230"
         type="application/octet-stream" />
     </item>
   </channel>
