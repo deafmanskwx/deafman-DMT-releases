@@ -5,7 +5,7 @@
     <description>DeafManTools automatic update feed</description>
     <language>en</language>
     <item>
-      <title>Version 1.6.0</title>
+      <title>Version 1.6.1</title>
       <description><![CDATA[
 <h2>Macros</h2>
 <p>Attach a single slider to multiple colour operators across multiple groups. Each route has independent input/output ranges, inversion, and a non-linear expression curve (10 types). Save named memory slots and recall any state instantly.</p>
@@ -39,14 +39,14 @@
   <li>New XML keys: <code>MacroSlotListAccentText</code>, <code>AutoSetupHeaderAction*</code>, <code>MacroASHeaderButton*</code>, <code>CfgHeaderButton*</code>.</li>
 </ul>
       ]]></description>
-      <pubDate>Fri, 24 Apr 2026 20:23:14 +0100</pubDate>
-      <sparkle:version>4</sparkle:version>
-      <sparkle:shortVersionString>1.6.0</sparkle:shortVersionString>
+      <pubDate>Sat, 25 Apr 2026 05:42:59 +0100</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>1.6.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/deafmanskwx/deafman-DMT-releases/releases/download/v1.6.0/DMT_v1.6.0.dmg"
-        sparkle:edSignature="sRX+vD6Xjy//xlgLq4HOaAyEccIDysz2Vcm3vMBoeutwR3U/OQZR9RU/H3TSYzMQUWUxMYYQBKQTLFnbpbUVCg=="
-        length="28593230"
+        url="https://github.com/deafmanskwx/deafman-DMT-releases/releases/download/v1.6.1/DMT_v1.6.1.dmg"
+        sparkle:edSignature="+ciAEoIqClBP/SGI8COxuGKbFZW0+xjKIaMOSfNtOQQV4Me0kdv4lU8vS7QL+tkxehCxRyKOLNbrjP1pu+fDAg=="
+        length="30469307"
         type="application/octet-stream" />
     </item>
   </channel>
