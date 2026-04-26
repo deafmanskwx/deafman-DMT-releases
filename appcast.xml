@@ -5,6 +5,144 @@
     <description>DeafManTools automatic update feed</description>
     <language>en</language>
     <item>
+      <title>Version 1.6.4</title>
+      <description><![CDATA[
+<h2>AutoSetup</h2>
+<ul>
+  <li>AutoSetup now presents as a native macOS sheet, matching the Settings overlay — drag it freely, detached from the main window.</li>
+  <li>Overlay auto-sizes responsively; no longer clips in narrow window configurations.</li>
+  <li>Assign button updated to a <strong>+</strong> (plus.circle) icon for clarity.</li>
+  <li>Overlay drag and positioning behaviour unified with the Settings sheet.</li>
+</ul>
+
+<h2>Macros</h2>
+<ul>
+  <li>Macro slot recall now correctly applies all parameter updates through the canonical pipeline on every click — no more silent misfires.</li>
+  <li>Lock Slots Control Mode is now scoped per macro identity instead of globally, preventing cross-macro interference.</li>
+  <li>Macro activity LED now fires during slider drag, not on release.</li>
+  <li>Macro persistence decoupled from theme saves — macros survive theme switches without writing to the theme file.</li>
+  <li>Macro persistence reliability and startup restore hardened.</li>
+  <li>Orphaned macro routes (from deleted groups or operators) cleaned up automatically on load.</li>
+</ul>
+
+<h2>Editor</h2>
+<ul>
+  <li>Track palette traversal, group removal, and parameter selection logic corrected.</li>
+  <li>Recursive parameter group movement enabled; <em>Remove from Group</em> context menu item added to reassign parameters back to the All Parameters pool.</li>
+  <li>Drag-to-reorder colour operators in the Editor parameter list.</li>
+  <li>Shift-select and right-click selection in the Editor parameter list fixed.</li>
+  <li>Dragged operator row selection background cleared for legibility.</li>
+  <li>Group search: pressing Enter now confirms and navigates instead of toggling expand.</li>
+</ul>
+
+<h2>CFG &amp; Grade</h2>
+<ul>
+  <li>CFG clip sort order layout fixed; header arrow keys now theme-driven.</li>
+  <li>GLOBAL directive radio dot uses correct orange accent; label stays teal.</li>
+  <li>CFG header button XML keys unified into <code>Button*</code> naming.</li>
+  <li>Grade EDIT button active state (gold border, warm light icon) now reads correctly from XML.</li>
+  <li>Grading theme ownership correctly falls back to DMTheme-first.</li>
+</ul>
+
+<h2>Theme Library</h2>
+<ul>
+  <li>1px separator added above the versions header for visual clarity.</li>
+  <li>Factory Default theme no longer cross-contaminates edit history.</li>
+  <li>Factory themes protected from save-back corruption.</li>
+</ul>
+
+<h2>Bug Fixes</h2>
+<ul>
+  <li>Support email address updated.</li>
+  <li>Missing XML colour keys <code>AutoSetupHeaderAction*</code> and <code>MacroSlotListAccentText</code> restored.</li>
+  <li>Disabled button text opacity raised for legibility.</li>
+</ul>
+
+<h2>New XML Theme Keys</h2>
+<ul>
+  <li><code>MacroSlotListAccentText</code>, <code>AutoSetupHeaderAction*</code>, <code>MacroASHeaderButton*</code>, <code>CfgHeaderButton*</code>, <code>CfgMenuActiveText</code>, <code>TracksTTMCfgRadioActive</code>.</li>
+</ul>
+      ]]></description>
+      <pubDate>Sun, 26 Apr 2026 13:39:43 +0100</pubDate>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>1.6.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/deafmanskwx/deafman-DMT-releases/releases/download/v1.6.4/DMT_v1.6.4.dmg"
+        sparkle:edSignature="xOyZy8tTSo2Ub2USYuQXIkzmG4JtSl8RVqpIB4T/43LSgM5fc38lW1Ce0vZTVihXndjjae5ESvL75f/tO9s+Bg=="
+        length="28609307"
+        type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Version 1.6.4</title>
+      <description><![CDATA[
+<h2>AutoSetup</h2>
+<ul>
+  <li>AutoSetup now presents as a native macOS sheet, matching the Settings overlay — drag it freely, resize independently of the main window.</li>
+  <li>AutoSetup overlay now auto-sizes responsively; no longer clips in narrow window configurations.</li>
+  <li>Assign button updated to a <strong>+</strong> icon (plus.circle) for clarity.</li>
+  <li>Overlay drag and positioning behaviour unified with the Settings sheet.</li>
+</ul>
+
+<h2>Macros</h2>
+<ul>
+  <li>Macro slot recall now correctly applies all parameter updates through the canonical pipeline on every click — no more silent misfires.</li>
+  <li>Lock Slots Control Mode is now scoped per macro identity instead of globally, preventing cross-macro interference.</li>
+  <li>Macro activity LED now fires during slider drag, not on release.</li>
+</ul>
+
+<h2>Editor</h2>
+<ul>
+  <li>Track palette traversal, group removal, and parameter selection logic corrected.</li>
+  <li>Recursive parameter group movement enabled; <em>Remove from Group</em> context menu item added to reassign parameters back to the All Parameters pool.</li>
+  <li>Drag-to-reorder colour operators in the Editor parameter list.</li>
+  <li>Shift-select and right-click selection in the Editor parameter list fixed.</li>
+  <li>Dragged operator row selection background cleared for legibility.</li>
+  <li>Group search: pressing Enter now confirms and navigates instead of toggling expand.</li>
+</ul>
+
+<h2>CFG &amp; Grade</h2>
+<ul>
+  <li>CFG clip sort order layout fixed; header arrow keys now theme-driven.</li>
+  <li>GLOBAL directive radio dot uses correct orange accent; label stays teal.</li>
+  <li>CFG header button XML keys unified into <code>Button*</code> naming.</li>
+  <li>Grade EDIT button active state (gold border, warm light icon) now reads correctly from XML.</li>
+  <li>Grading theme ownership correctly falls back to DMTheme-first.</li>
+</ul>
+
+<h2>Theme Library</h2>
+<ul>
+  <li>1px separator added above the versions header for visual clarity.</li>
+  <li>Factory Default theme no longer cross-contaminates edit history.</li>
+  <li>Factory themes protected from save-back corruption.</li>
+</ul>
+
+<h2>Bug Fixes</h2>
+<ul>
+  <li>Support email address updated.</li>
+  <li>Macro persistence decoupled from theme saves — macros survive theme switches without writing to the theme file.</li>
+  <li>Macro persistence reliability and startup restore hardened.</li>
+  <li>Orphaned macro routes (from deleted groups or operators) cleaned up automatically on load.</li>
+  <li>Missing XML colour keys <code>AutoSetupHeaderAction*</code> and <code>MacroSlotListAccentText</code> restored.</li>
+  <li>Disabled button text opacity raised for legibility.</li>
+</ul>
+
+<h2>New XML Theme Keys</h2>
+<ul>
+  <li><code>MacroSlotListAccentText</code>, <code>AutoSetupHeaderAction*</code>, <code>MacroASHeaderButton*</code>, <code>CfgHeaderButton*</code>, <code>CfgMenuActiveText</code>, <code>TracksTTMCfgRadioActive</code>.</li>
+</ul>
+      ]]></description>
+      <pubDate>Sun, 26 Apr 2026 12:00:00 +0100</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>1.6.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/deafmanskwx/deafman-DMT-releases/releases/download/v1.6.4/DMT_v1.6.4.dmg"
+        sparkle:edSignature="PENDING"
+        length="0"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.6.3</title>
       <description><![CDATA[
 <h2>Macros</h2>
@@ -48,6 +186,5 @@
         sparkle:edSignature="1Lt+Sg0t9Mha1vXHLDeImhVqe2o9Ny1YKq8H//qUV1SswpnfRAFjIwUk9rzqRR4H4OdD63Jr5w0tR7CKzQlKBg=="
         length="28624741"
         type="application/octet-stream" />
-    </item>
-  </channel>
+    </item>  </channel>
 </rss>
