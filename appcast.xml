@@ -5,6 +5,141 @@
     <description>DeafManTools automatic update feed</description>
     <language>en</language>
     <item>
+      <title>Version 1.7.0</title>
+      <description><![CDATA[
+<h2>AutoSetup</h2>
+<ul>
+  <li>AutoSetup now presents as a native macOS sheet, matching the Settings overlay — drag it freely, detached from the main window.</li>
+  <li>Overlay auto-sizes responsively; no longer clips in narrow window configurations.</li>
+  <li>Assign button updated to a <strong>+</strong> (plus.circle) icon for clarity.</li>
+  <li>Overlay drag and positioning behaviour unified with the Settings sheet.</li>
+</ul>
+
+<h2>Macros</h2>
+<ul>
+  <li>Macro slot recall now correctly applies all parameter updates through the canonical pipeline on every click — no more silent misfires.</li>
+  <li>Lock Slots Control Mode is now scoped per macro identity instead of globally, preventing cross-macro interference.</li>
+  <li>Macro activity LED now fires during slider drag, not on release.</li>
+  <li>Macro persistence decoupled from theme saves — macros survive theme switches without writing to the theme file.</li>
+  <li>Macro persistence reliability and startup restore hardened.</li>
+  <li>Orphaned macro routes (from deleted groups or operators) cleaned up automatically on load.</li>
+</ul>
+
+<h2>Editor</h2>
+<ul>
+  <li>Track palette traversal, group removal, and parameter selection logic corrected.</li>
+  <li>Recursive parameter group movement enabled; <em>Remove from Group</em> context menu item added to reassign parameters back to the All Parameters pool.</li>
+  <li>Drag-to-reorder colour operators in the Editor parameter list.</li>
+  <li>Shift-select and right-click selection in the Editor parameter list fixed.</li>
+  <li>Dragged operator row selection background cleared for legibility.</li>
+  <li>Group search: pressing Enter now confirms and navigates instead of toggling expand.</li>
+</ul>
+
+<h2>CFG &amp; Grade</h2>
+<ul>
+  <li>CFG clip sort order layout fixed; header arrow keys now theme-driven.</li>
+  <li>GLOBAL directive radio dot uses correct orange accent; label stays teal.</li>
+  <li>CFG header button XML keys unified into <code>Button*</code> naming.</li>
+  <li>Grade EDIT button active state (gold border, warm light icon) now reads correctly from XML.</li>
+  <li>Grading theme ownership correctly falls back to DMTheme-first.</li>
+</ul>
+
+<h2>Theme Library</h2>
+<ul>
+  <li>1px separator added above the versions header for visual clarity.</li>
+  <li>Factory Default theme no longer cross-contaminates edit history.</li>
+  <li>Factory themes protected from save-back corruption.</li>
+</ul>
+
+<h2>Bug Fixes</h2>
+<ul>
+  <li>Support email address updated.</li>
+  <li>Missing XML colour keys <code>AutoSetupHeaderAction*</code> and <code>MacroSlotListAccentText</code> restored.</li>
+  <li>Disabled button text opacity raised for legibility.</li>
+</ul>
+
+<h2>New XML Theme Keys</h2>
+<ul>
+  <li><code>MacroSlotListAccentText</code>, <code>AutoSetupHeaderAction*</code>, <code>MacroASHeaderButton*</code>, <code>CfgHeaderButton*</code>, <code>CfgMenuActiveText</code>, <code>TracksTTMCfgRadioActive</code>.</li>
+</ul>
+      ]]></description>
+      <pubDate>Wed, 29 Apr 2026 20:35:31 +0100</pubDate>
+      <sparkle:version>18</sparkle:version>
+      <sparkle:shortVersionString>1.7.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/deafmanskwx/deafman-DMT-releases/releases/download/v1.7.0/DMT_v1.7.0.dmg"
+        sparkle:edSignature="DAKD8ol9jSlGptvaO4fC3OJDnlkMT+rmORPGUTU5hOH3T9RhjD+qStc2MB1iTDUFtI58xHNhR7vVTf0rqX6eCg=="
+        length="29225381"
+        type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Version 1.7.0</title>
+      <description><![CDATA[
+<h2>Colour Grading</h2>
+<ul>
+  <li>New <strong>SuppressorBand</strong> hue-anchor system in the Colour Grading view — pin a hue range to suppress competing bands during grading.</li>
+  <li>Master Grade indicator disabled to reduce visual noise during grading sessions.</li>
+  <li>Meter parameters now ordered vertically for a cleaner layout.</li>
+</ul>
+
+<h2>Macros</h2>
+<ul>
+  <li>Macro grade routing updated for more accurate parameter mapping.</li>
+  <li>Macro remap slider track now redraws correctly during a drag.</li>
+  <li>Macro remap handle compression fixed — handles no longer overlap at narrow widths.</li>
+  <li>Macro delete confirmation now aborts cleanly on an outside click instead of locking the row.</li>
+  <li>Blend value edits are now logged in undo history.</li>
+</ul>
+
+<h2>Tracks Tab</h2>
+<ul>
+  <li>Tracks Max for Live device now correctly bundled with the app.</li>
+  <li>Reverse sensitivity filtering in the Tracks tab fixed.</li>
+  <li>Tracks TTM toolbar and SETTINGS overlay colour keys externalised — fully themeable.</li>
+  <li>Tracks sidebar styling unified with the Library and Matrix tab designs.</li>
+  <li>Filter button frame colour updated.</li>
+</ul>
+
+<h2>Editor &amp; HUD</h2>
+<ul>
+  <li>Colour Operator context menu reordered: Hue, Saturation, Brightness, Contrast, Exposure, Gamma, Grade.</li>
+  <li>HUD now defaults to showing the selected parameter on open.</li>
+  <li>Colour slider value field height and corner radius reduced for a tighter layout.</li>
+  <li>History shortcut remapped to avoid conflict.</li>
+</ul>
+
+<h2>Settings &amp; UI</h2>
+<ul>
+  <li>Settings title bar chevron border added.</li>
+  <li>Sheet zoom layout sizing and scaling corrected.</li>
+  <li>TweakMode pane anchor math fixed — panel no longer drifts off-screen on resize.</li>
+  <li>Content update timestamp label clarified.</li>
+</ul>
+
+<h2>Stability &amp; Startup</h2>
+<ul>
+  <li>Startup theme restore readiness hardened — theme is guaranteed loaded before any UI reads it.</li>
+  <li>Sparkle automatic relaunch after update fixed.</li>
+  <li>Ableton Live is now revealed in the Dock during a font-change restart sequence.</li>
+</ul>
+
+<h2>New XML Theme Keys</h2>
+<ul>
+  <li><code>TracksTTMToolbar*</code>, <code>TracksTTMSidebar*</code>, <code>SettingsOverlay*</code> — externalised colour keys for TweakMode toolbar, sidebar, and Settings overlay controls.</li>
+</ul>
+      ]]></description>
+      <pubDate>Tue, 29 Apr 2026 20:12:00 +0100</pubDate>
+      <sparkle:version>17</sparkle:version>
+      <sparkle:shortVersionString>1.7.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/deafmanskwx/deafman-DMT-releases/releases/download/v1.7.0/DMT_v1.7.0.dmg"
+        sparkle:edSignature="PENDING"
+        length="0"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.6.5</title>
       <description><![CDATA[
 <h2>AutoSetup</h2>
@@ -396,5 +531,5 @@
         sparkle:edSignature="1Lt+Sg0t9Mha1vXHLDeImhVqe2o9Ny1YKq8H//qUV1SswpnfRAFjIwUk9rzqRR4H4OdD63Jr5w0tR7CKzQlKBg=="
         length="28624741"
         type="application/octet-stream" />
-    </item>  </channel>  </channel>
+    </item>  </channel>
 </rss>
