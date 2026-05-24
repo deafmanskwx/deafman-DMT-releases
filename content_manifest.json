@@ -1,18 +1,18 @@
 {
-  "lastUpdated" : "2026-05-24T19:25:05Z",
-  "schemaVersion" : 1,
   "packs" : [
     {
-      "sizeBytes" : 42756,
-      "minAppVersion" : "1.5.0",
-      "version" : 4,
-      "edSignature" : "HPXcArmvIwGrJAVK5iF+LncDwgHy4AbvNEGtFK4\/j\/AREBiMJIZqIZ4w52JjK6fkYjT4boKubhcTVTRUq45iDA==",
-      "requiredLicense" : "RED",
-      "filename" : "RED_v4.dmt",
-      "packFormatVersion" : 2,
-      "sha256" : "72c10745206826f602a9a029d9d2e27b42160c306f360ffb0ea44e82a622b65a",
+      "productID" : "RED",
+      "sha256" : "f9c702c3157f76eff766e09b8a5dd04da93bb2d9283b0823afccefb23ef6a694",
       "url" : "https:\/\/github.com\/deafmanskwx\/deafman-DMT-releases\/releases\/download\/packs-latest\/RED_v4.dmt",
-      "productID" : "RED"
+      "packFormatVersion" : 2,
+      "version" : 4,
+      "filename" : "RED_v4.dmt",
+      "sizeBytes" : 42755,
+      "minAppVersion" : "1.5.0",
+      "edSignature" : "XQaFODBE9R5OJ2tjOm59PfI0stmcYCgd\/uQLnPBjAVnI2sCDZyuC8j1GX5Sj3h\/LAjChIF3qfGBygYsHOZeICA==",
+      "requiredLicense" : "RED"
     }
-  ]
+  ],
+  "lastUpdated" : "2026-05-24T19:29:53Z",
+  "schemaVersion" : 1
 }
