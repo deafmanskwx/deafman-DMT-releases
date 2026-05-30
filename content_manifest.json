@@ -1,78 +1,78 @@
 {
+  "lastUpdated" : "2026-05-30T07:52:59Z",
   "packs" : [
     {
-      "url" : "https:\/\/github.com\/deafmanskwx\/deafman-DMT-releases\/releases\/download\/packs-latest\/COM12_v4.dmt",
-      "edSignature" : "aQm0LWH+5z5maDYLUpjFuleaqukEWFNFJAUJQP\/F7NRsWhmvqkvelpQ6sgda2PoVoSchj7GY+tGLoKqevhG4Cg==",
-      "productID" : "COM12",
+      "sha256" : "0ba29f64b5f8fa24ec044cc7b4c3f945e80700807e13fd58f4a1d0461833f27f",
+      "edSignature" : "OAVukrrr9+fpYzg3dt8c1EDp+lAHm8p53PBAjII83btwxpqroHS\/GT\/TnIMRqCSlRGphYO\/Z45FKvbFqn0lqBw==",
       "filename" : "COM12_v4.dmt",
-      "sizeBytes" : 286798,
+      "url" : "https:\/\/github.com\/deafmanskwx\/deafman-DMT-releases\/releases\/download\/packs-latest\/COM12_v4.dmt",
+      "productID" : "COM12",
+      "sizeBytes" : 283707,
       "requiredLicense" : "COM12",
+      "version" : 4,
       "minAppVersion" : "1.5.0",
-      "sha256" : "27838749cc6d60cecf279efe822b434200c3614badc2e5d3f22891d74892cb73",
-      "packFormatVersion" : 2,
-      "version" : 4
-    },
-    {
-      "edSignature" : "7Ev9LWNO1dOeA9qraAdSgxE9wQf+sqliMM0Q2PvmSbrFRWiDSN3CEeMX97ORcoa7yIpFexhH8PTzRzJO6NYsBg==",
-      "minAppVersion" : "1.5.0",
-      "packFormatVersion" : 2,
-      "filename" : "INF_v6.dmt",
-      "productID" : "INF",
-      "sizeBytes" : 46783,
-      "requiredLicense" : "INF",
-      "version" : 6,
-      "sha256" : "8f069216ff2a5ec11a9c9c3595e5890a9ee3ebe554e061321b003b9b86c2d6a4",
-      "url" : "https:\/\/github.com\/deafmanskwx\/deafman-DMT-releases\/releases\/download\/packs-latest\/INF_v6.dmt"
-    },
-    {
-      "edSignature" : "RN8n8mpUdyJnHaRvu\/fEyTGUxN9Khf1aNhYa9uoCMSc\/8MvExlmkrw9LfuS5duPfKDSuWvWjI323\/PN9NCIYBQ==",
-      "productID" : "MID",
-      "requiredLicense" : "MID",
-      "sizeBytes" : 42745,
-      "sha256" : "814f7e3f3a7c38f47c8c814abf8b08e1a8ce0b54e045d3c567eb7b22b2227c79",
-      "version" : 8,
-      "minAppVersion" : "1.5.0",
-      "packFormatVersion" : 2,
-      "url" : "https:\/\/github.com\/deafmanskwx\/deafman-DMT-releases\/releases\/download\/packs-latest\/MID_v8.dmt",
-      "filename" : "MID_v8.dmt"
-    },
-    {
-      "version" : 5,
-      "filename" : "MNO_v5.dmt",
-      "sha256" : "c89fb40a10b8135c7ccccddad2444a89448721405f5817931bba07cac48e08f2",
-      "sizeBytes" : 39214,
-      "url" : "https:\/\/github.com\/deafmanskwx\/deafman-DMT-releases\/releases\/download\/packs-latest\/MNO_v5.dmt",
-      "productID" : "MNO",
-      "minAppVersion" : "1.5.0",
-      "edSignature" : "Pslp68O\/LgmhIzOG572aE58vx4xghnLnVweLwlSdwhsQxk7iGCmUGL31C\/FPqmBm1AjFnBA2eOsKP+dwLrx8Ag==",
-      "requiredLicense" : "MNO",
       "packFormatVersion" : 2
     },
     {
+      "url" : "https:\/\/github.com\/deafmanskwx\/deafman-DMT-releases\/releases\/download\/packs-latest\/INF_v6.dmt",
+      "minAppVersion" : "1.5.0",
+      "edSignature" : "7Ev9LWNO1dOeA9qraAdSgxE9wQf+sqliMM0Q2PvmSbrFRWiDSN3CEeMX97ORcoa7yIpFexhH8PTzRzJO6NYsBg==",
+      "packFormatVersion" : 2,
+      "version" : 6,
+      "sha256" : "8f069216ff2a5ec11a9c9c3595e5890a9ee3ebe554e061321b003b9b86c2d6a4",
+      "requiredLicense" : "INF",
+      "sizeBytes" : 46783,
+      "productID" : "INF",
+      "filename" : "INF_v6.dmt"
+    },
+    {
+      "version" : 8,
+      "sizeBytes" : 42745,
+      "url" : "https:\/\/github.com\/deafmanskwx\/deafman-DMT-releases\/releases\/download\/packs-latest\/MID_v8.dmt",
+      "productID" : "MID",
+      "requiredLicense" : "MID",
+      "filename" : "MID_v8.dmt",
+      "edSignature" : "RN8n8mpUdyJnHaRvu\/fEyTGUxN9Khf1aNhYa9uoCMSc\/8MvExlmkrw9LfuS5duPfKDSuWvWjI323\/PN9NCIYBQ==",
+      "sha256" : "814f7e3f3a7c38f47c8c814abf8b08e1a8ce0b54e045d3c567eb7b22b2227c79",
+      "minAppVersion" : "1.5.0",
+      "packFormatVersion" : 2
+    },
+    {
+      "sha256" : "c89fb40a10b8135c7ccccddad2444a89448721405f5817931bba07cac48e08f2",
+      "requiredLicense" : "MNO",
+      "filename" : "MNO_v5.dmt",
+      "edSignature" : "Pslp68O\/LgmhIzOG572aE58vx4xghnLnVweLwlSdwhsQxk7iGCmUGL31C\/FPqmBm1AjFnBA2eOsKP+dwLrx8Ag==",
+      "productID" : "MNO",
+      "sizeBytes" : 39214,
+      "packFormatVersion" : 2,
+      "version" : 5,
+      "url" : "https:\/\/github.com\/deafmanskwx\/deafman-DMT-releases\/releases\/download\/packs-latest\/MNO_v5.dmt",
+      "minAppVersion" : "1.5.0"
+    },
+    {
+      "requiredLicense" : "RED",
+      "sha256" : "3af44535f21f2393ba7f05883994de56ff30f670694bea883c910cb0f7864d3a",
+      "productID" : "RED",
+      "filename" : "RED_v4.dmt",
+      "url" : "https:\/\/github.com\/deafmanskwx\/deafman-DMT-releases\/releases\/download\/packs-latest\/RED_v4.dmt",
       "version" : 4,
       "sizeBytes" : 42753,
       "minAppVersion" : "1.5.0",
-      "edSignature" : "QLq0f2SbbbgMLqlk8q9NprEGoA0FRDPE3YL+IwLuwsjLSN6S8uw1qKbCdSXT+W4NV7SvvvMta+j2rLu7kAswDA==",
-      "requiredLicense" : "RED",
       "packFormatVersion" : 2,
-      "sha256" : "3af44535f21f2393ba7f05883994de56ff30f670694bea883c910cb0f7864d3a",
-      "url" : "https:\/\/github.com\/deafmanskwx\/deafman-DMT-releases\/releases\/download\/packs-latest\/RED_v4.dmt",
-      "productID" : "RED",
-      "filename" : "RED_v4.dmt"
+      "edSignature" : "QLq0f2SbbbgMLqlk8q9NprEGoA0FRDPE3YL+IwLuwsjLSN6S8uw1qKbCdSXT+W4NV7SvvvMta+j2rLu7kAswDA=="
     },
     {
-      "packFormatVersion" : 2,
-      "minAppVersion" : "1.5.0",
-      "filename" : "STO_v2.dmt",
-      "sha256" : "4aeab959d4cd77ab80f498c8ba79227bcf3b0d46439d723000730dd7be2ea5d1",
-      "url" : "https:\/\/github.com\/deafmanskwx\/deafman-DMT-releases\/releases\/download\/packs-latest\/STO_v2.dmt",
-      "edSignature" : "+b+w\/c3GlPT5LsuYh9sTqfePiv0s4Jo8MpXJ5euSVWf9Ad7mSrzZ98Wr2YGV7Uk2oct37k+c3vp2GEbwE07cBQ==",
-      "requiredLicense" : "STO",
       "sizeBytes" : 36302,
+      "minAppVersion" : "1.5.0",
       "productID" : "STO",
-      "version" : 2
+      "sha256" : "4aeab959d4cd77ab80f498c8ba79227bcf3b0d46439d723000730dd7be2ea5d1",
+      "edSignature" : "+b+w\/c3GlPT5LsuYh9sTqfePiv0s4Jo8MpXJ5euSVWf9Ad7mSrzZ98Wr2YGV7Uk2oct37k+c3vp2GEbwE07cBQ==",
+      "filename" : "STO_v2.dmt",
+      "version" : 2,
+      "packFormatVersion" : 2,
+      "url" : "https:\/\/github.com\/deafmanskwx\/deafman-DMT-releases\/releases\/download\/packs-latest\/STO_v2.dmt",
+      "requiredLicense" : "STO"
     }
   ],
-  "schemaVersion" : 1,
-  "lastUpdated" : "2026-05-30T07:50:40Z"
+  "schemaVersion" : 1
 }
